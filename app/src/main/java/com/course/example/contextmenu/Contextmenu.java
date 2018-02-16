@@ -38,6 +38,7 @@ public class Contextmenu extends Activity {
 		menu.setHeaderTitle("Select Special Action");
 		menu.add(0, PICK1, Menu.NONE, "Option-1 ONE ");
 		menu.add(0, PICK2, Menu.NONE, "Option-2 TWO ");
+		menu.add(0, PICK3, Menu.NONE, "Option-3 THREE ");
     }
 
 	
