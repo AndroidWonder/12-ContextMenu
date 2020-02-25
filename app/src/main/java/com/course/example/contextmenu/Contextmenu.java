@@ -14,8 +14,10 @@ public class Contextmenu extends Activity {
 
 	private ImageView ImView;
 
-	//Menu.FIRST is a constant of the Menu class used to define first menu item,
-	//used by convention
+	/*Define Menu item identifiers.
+	  Menu.FIRST is a constant of the Menu class used to define first menu item,
+	  used by convention
+	  */
 	final int PICK1 = Menu.FIRST;
 	final int PICK2 = Menu.FIRST + 1;
 	final int PICK3 = Menu.FIRST + 2;
