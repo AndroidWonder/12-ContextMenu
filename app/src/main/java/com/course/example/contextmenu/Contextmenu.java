@@ -40,9 +40,9 @@ public class Contextmenu extends Activity {
 		super.onCreateContextMenu(menu, v, menuInfo);
 		//add a couple of options to the context menu
 		menu.setHeaderTitle("Select Special Action");
-		menu.add(0, PICK1, Menu.NONE, "Option-1 Fire Phasers ");
-		menu.add(0, PICK2, Menu.NONE, "Option-2 Jump to Warp Speed ");
-		menu.add(0, PICK3, Menu.NONE, "Option-3 Fire Photon Torpedos ");
+		menu.add(0, PICK1, Menu.NONE, "Fire Phasers ");
+		menu.add(0, PICK2, Menu.NONE, "Jump to Warp Speed ");
+		menu.add(0, PICK3, Menu.NONE, "Fire Photon Torpedos ");
     }
 
 	
