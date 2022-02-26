@@ -49,6 +49,7 @@ public class Contextmenu extends Activity {
 	@Override
 	public boolean onContextItemSelected(MenuItem item) {
 		super.onContextItemSelected(item);
+
 		String title = item.getTitle().toString(); //get menu item title
 		int itemId = item.getItemId();             //get menu item id
 		Toast.makeText(this, title + " " + itemId, Toast.LENGTH_LONG).show();
