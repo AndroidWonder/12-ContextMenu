@@ -30,7 +30,7 @@ public class Contextmenu extends Activity {
         
         ImView = (ImageView)findViewById(R.id.image);
         ImView.setImageResource(R.drawable.trek);
-        
+        //register context menu with ImageView
         registerForContextMenu(ImView);
     }
     
